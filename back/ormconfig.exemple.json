@@ -1,0 +1,22 @@
+{
+   "type": "",
+   "host": "",
+   "port": 3306,
+   "username": "",
+   "password": "",
+   "database": "",
+   "synchronize": false,
+   "logging": false,
+   "entities": [
+      "src/Repository/entities/**/*.ts"
+   ],
+   "migrations": [
+      "src/Repository/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli":{
+      "migrationsDir":"src/Repository/migration"
+   }
+}
